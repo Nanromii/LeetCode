@@ -3,13 +3,7 @@ import java.net.URL;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        long num = 1;
-        while (num <= Integer.MAX_VALUE) {
-            System.out.print(num);
-            num *= 2;
-            System.out.println();
-        }
-        System.out.println(decimalTo(125368709, 2));
+        System.out.println(binaryToDecimal("1101"));
     }
 
     public long minCost(int[] basket1, int[] basket2) {
