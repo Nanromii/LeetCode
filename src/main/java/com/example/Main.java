@@ -3,7 +3,7 @@ import java.net.URL;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        System.out.println(binaryToDecimal("1101"));
+        System.out.println(Math.min(Double.MIN_VALUE, 0.0d));
     }
 
     public long minCost(int[] basket1, int[] basket2) {
